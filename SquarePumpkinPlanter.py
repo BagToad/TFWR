@@ -21,12 +21,4 @@ def SquarePumpkinPlanter():
             fullyPlanted = True
         plantedOrGrowing = False
 
-    harvest()
-
-# def buyEnoughPumpkinSeeds():
-#     seed = Items.Pumpkin_Seed
-#     numPlots = get_world_size() * get_world_size()
-#     if num_items(seed) <= numPlots:
-#         if not CheckCost(seed, numPlots):
-#             return
-#         trade(seed, numPlots)
+    harvest()

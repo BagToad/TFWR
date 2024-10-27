@@ -1,3 +1,6 @@
+# Benchmarking experiment to test different FlyTo
+# implementations for sunflowers
+
 scores = []
 clear()
 for ii in range(10):
@@ -10,15 +13,12 @@ for ii in range(10):
     prevCount = get_op_count()
 # 1000, 2000, 3000
 # 1000, (2000 - 1000 = 1000), (3000 - 2000 = 1000)
-
     
 def displayAverageScore(s):
     sum = 0
     for score in s:
         sum += score
     print("Current iteration: ", len(s), "Average: ", sum / len(s), "List: ", s)
-    #print("Average: ", sum / len(s))
-
 
 #     #MazeRunner()
 #     SquarePumpkinPlanter()

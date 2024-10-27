@@ -2,7 +2,6 @@ def MinMaxRunner(harvestEntity, requestedMin, requestedMax, fn, clr = False, zer
     realMin = requestedMin
     realMax = requestedMax
 
-    #print("Evaluating ", harvestEntity)
     # Weird behavior, but hear me out.
     # -1 is a signal to execute this runner forever, but we want to
     # re-evaluate other resources every now and again, so we'll
